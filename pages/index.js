@@ -1,9 +1,9 @@
-import RealEstateApp from './RealEstateApp';
+import HospitalManagementApp from './HospitalManagementApp';
 
 export default function Home() {
   return (
     <div>
-      <RealEstateApp />
+      <HospitalManagementApp />
     </div>
   );
 }
