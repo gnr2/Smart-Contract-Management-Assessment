@@ -1,8 +1,8 @@
 async function main() {
-  const RealEstate = await ethers.getContractFactory("RealEstate");
+  const RealEstate = await ethers.getContractFactory("HospitalManagement");
   const realEstate = await RealEstate.deploy();
   await realEstate.deployed();
-  console.log("RealEstate deployed to:", realEstate.address);
+  console.log("HospitalManagement deployed to:", realEstate.address);
 }
 
 main()
